@@ -1,0 +1,2 @@
+# navi
+Personal discord bot
