@@ -4,10 +4,10 @@ const getDistube = require('../../lib/distube');
 module.exports = {
     data: new SlashCommandBuilder()
         .setName('play')
-        .setDescription('Search and play a video from YouTube')
+        .setDescription('Search and play a song')
         .addStringOption(option => 
             option.setName('query')
-                    .setDescription('Search keywords or YouTube URL')
+                    .setDescription('Search keywords or URL')
                     .setRequired(true)
             ),
   

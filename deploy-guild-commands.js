@@ -28,8 +28,15 @@ const rest = new REST().setToken(token);
 	try {
 		console.log(`Started refreshing ${commands.length} application (/) commands.`);
 
+        // my server
 		const data = await rest.put(
-			Routes.applicationGuildCommands(clientId, guildId),
+			Routes.applicationGuildCommands(clientId, '654478709029339137'),
+			{ body: commands },
+		);
+
+        // trevors server
+        await rest.put(
+			Routes.applicationGuildCommands(clientId, '926335148650283029'),
 			{ body: commands },
 		);
 

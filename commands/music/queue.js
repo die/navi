@@ -1,5 +1,6 @@
-const { SlashCommandBuilder } = require('discord.js');
+const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
 const getDistube = require('../../lib/distube');
+
 
 module.exports = {
     data: new SlashCommandBuilder()
@@ -22,7 +23,7 @@ module.exports = {
             }
       
             const songList = queue.songs
-              .map((song, index) => `${index + 1}. [${song.name}](${song.url}) - ${song.formattedDuration}\n\t*Requested by \`${song.member.user.username}\`\n`)
+              .map((song, index) => `${index + 1}. [${song.name}](${song.url}) - ${song.formattedDuration}`)
               .join('\n');
       
             const embed = new EmbedBuilder()

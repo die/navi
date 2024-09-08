@@ -4,7 +4,7 @@ const getDistube = require('../../lib/distube');
 module.exports = {
     data: new SlashCommandBuilder()
         .setName('stop')
-        .setDescription('Stop music'),
+        .setDescription('Stop the music and clear the queue'),
   
     async execute(interaction) {
         const voiceChannel = interaction.member.voice.channel;
