@@ -4,7 +4,7 @@ const db = require('../lib/db');
 
 module.exports = {
 	name: Events.InteractionCreate,
-	async execute(interaction, client) {
+	async execute(interaction) {
 		if (!interaction.isChatInputCommand()) return;
 
 		const command = interaction.client.commands.get(interaction.commandName);
@@ -38,7 +38,7 @@ module.exports = {
 		setTimeout(() => timestamps.delete(interaction.user.id), cooldownAmount);
 
 		try {
-			await command.execute(interaction, db, client.application_emojis);
+			await command.execute(interaction, db, interaction.client.application_emojis);
 		}
 		catch (error) {
 			console.error(`Error executing ${interaction.commandName}`);

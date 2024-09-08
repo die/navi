@@ -17,8 +17,18 @@
   },
   "homepage": "https://github.com/die/navi#readme",
   "dependencies": {
+    "@discordjs/opus": "^0.9.0",
+    "@discordjs/voice": "^0.17.0",
+    "@distube/spotify": "^2.0.2",
+    "@distube/youtube": "^1.0.4",
+    "@distube/yt-dlp": "^2.0.1",
+    "@distube/ytdl-core": "^4.14.4",
     "axios": "^1.7.7",
     "discord.js": "^14.16.1",
-    "mysql2": "^3.11.0"
+    "distube": "^5.0.2",
+    "mysql2": "^3.11.0",
+    "node-opus": "^0.3.3",
+    "opusscript": "^0.0.8",
+    "sodium-native": "^4.1.1"
   }
 }

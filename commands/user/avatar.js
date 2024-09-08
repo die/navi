@@ -1,7 +1,4 @@
 const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
-const { osuClient, osuCode, osuToken } = require('../../config.json');
-const axios = require('axios');
-
 
 module.exports = {
 	data: new SlashCommandBuilder()

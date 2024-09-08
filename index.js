@@ -34,7 +34,7 @@ for (const file of eventFiles) {
 		client.once(event.name, (...args) => event.execute(...args));
 	}
 	else {
-		client.on(event.name, (...args) => event.execute(...args, client));
+		client.on(event.name, (...args) => event.execute(...args));
 	}
 }
 
