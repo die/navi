@@ -1,0 +1,24 @@
+{
+  "name": "navi",
+  "version": "1.0.0",
+  "description": "Personal discord bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/die/navi.git"
+  },
+  "author": "die",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/die/navi/issues"
+  },
+  "homepage": "https://github.com/die/navi#readme",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "discord.js": "^14.16.1",
+    "mysql2": "^3.11.0"
+  }
+}

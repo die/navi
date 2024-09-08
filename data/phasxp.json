@@ -1,0 +1,505 @@
+{
+	"xp": [
+		{
+			
+			"value": 100,
+			"unlock": ""
+		},
+		{
+			
+			"value": 236,
+			"unlock": "10 Ridgeview Court + 42 Edgefield Road "
+		},
+		{
+			
+			"value": 347,
+			"unlock": "Photo Camera Tier 1"
+		},
+		{
+			
+			"value": 448,
+			"unlock": "Grafton Farmhouse + Bleasdale Farmhouse"
+		},
+		{
+			
+			"value": 540,
+			"unlock": "Motion Sensor Tier 1"
+		},
+		{
+			
+			"value": 629,
+			"unlock": ""
+		},
+		{
+			
+			"value": 712,
+			"unlock": "Parabolic Microphone Tier 1"
+		},
+		{
+			
+			"value": 793,
+			"unlock": "Crucifix Tier 1"
+		},
+		{
+			
+			"value": 871,
+			"unlock": "Salt Tier 1 + 13 Willow Street"
+		},
+		{
+			
+			"value": 947,
+			"unlock": "Tripod Tier 1 + Intermediate difficulty"
+		},
+		{
+			
+			"value": 1021,
+			"unlock": "Sound Sensor Tier 1 + Brownstone High School"
+		},
+		{
+			
+			"value": 1092,
+			"unlock": "Firelight Tier 1 + Igniter Tier 1"
+		},
+		{
+			
+			"value": 1164,
+			"unlock": "Headgear Tier 1 + Camp Woodwind"
+		},
+		{
+			
+			"value": 1232,
+			"unlock": "Incense Tier 1"
+		},
+		{
+			
+			"value": 1300,
+			"unlock": "Professional difficulty + Prison"
+		},
+		{
+			
+			"value": 1368,
+			"unlock": "Sanity Medication Tier 1"
+		},
+		{
+			
+			"value": 1432,
+			"unlock": ""
+		},
+		{
+			
+			"value": 1497,
+			"unlock": ""
+		},
+		{
+			
+			"value": 1561,
+			"unlock": "Flashlight Tier 2 + Maple Lodge Campsite"
+		},
+		{
+			
+			"value": 1624,
+			"unlock": "EMF Reader Tier 2 + Nightmare difficulty"
+		},
+		{
+			
+			"value": 1686,
+			"unlock": "UV Light Tier 2"
+		},
+		{
+			
+			"value": 1748,
+			"unlock": "Sunny Meadows Mental Institution/Restricted"
+		},
+		{
+			
+			"value": 1807,
+			"unlock": "Ghost Writing Book Tier 2"
+		},
+		{
+			
+			"value": 1868,
+			"unlock": ""
+		},
+		{
+			
+			"value": 1927,
+			"unlock": "Photo Camera Tier 2"
+		},
+		{
+			
+			"value": 1986,
+			"unlock": ""
+		},
+		{
+			
+			"value": 2044,
+			"unlock": "Spirit Box Tier 2"
+		},
+		{
+			
+			"value": 2102,
+			"unlock": ""
+		},
+		{
+			
+			"value": 2158,
+			"unlock": "D.O.T.S Projector Tier 2"
+		},
+		{
+			
+			"value": 2215,
+			"unlock": ""
+		},
+		{
+			
+			"value": 2272,
+			"unlock": "Parabolic Microphone Tier 2"
+		},
+		{
+			
+			"value": 2326,
+			"unlock": "Sound Sensor Tier 2"
+		},
+		{
+			
+			"value": 2382,
+			"unlock": "Video Camera Tier 2"
+		},
+		{
+			
+			"value": 2437,
+			"unlock": "Tripod Tier 2"
+		},
+		{
+			
+			"value": 2491,
+			"unlock": "Flashlight Tier 3"
+		},
+		{
+			
+			"value": 2545,
+			"unlock": "Thermometer Tier 2"
+		},
+		{
+			
+			"value": 2599,
+			"unlock": "Crucifix Tier 2"
+		},
+		{
+			
+			"value": 2652,
+			"unlock": ""
+		},
+		{
+			
+			"value": 2705,
+			"unlock": "Sanity Medication Tier 2"
+		},
+		{
+			
+			"value": 2757,
+			"unlock": ""
+		},
+		{
+			
+			"value": 2810,
+			"unlock": "Igniter Tier 2"
+		},
+		{
+			
+			"value": 2861,
+			"unlock": "Incense Tier 2"
+		},
+		{
+			
+			"value": 2913,
+			"unlock": "Salt Tier 2"
+		},
+		{
+			
+			"value": 2964,
+			"unlock": ""
+		},
+		{
+			
+			"value": 3015,
+			"unlock": "Motion Sensor Tier 2"
+		},
+		{
+			
+			"value": 3066,
+			"unlock": ""
+		},
+		{
+			
+			"value": 3116,
+			"unlock": "Firelight Tier 2"
+		},
+		{
+			
+			"value": 3167,
+			"unlock": ""
+		},
+		{
+			
+			"value": 3216,
+			"unlock": "Headgear Tier 2"
+		},
+		{
+			
+			"value": 3266,
+			"unlock": "Custom difficulty"
+		},
+		{
+			
+			"value": 3315,
+			"unlock": ""
+		},
+		{
+			
+			"value": 3364,
+			"unlock": "EMF Reader Tier 3"
+		},
+		{
+			
+			"value": 3413,
+			"unlock": ""
+		},
+		{
+			
+			"value": 3462,
+			"unlock": "Spirit Box Tier 3"
+		},
+		{
+			
+			"value": 3510,
+			"unlock": ""
+		},
+		{
+			
+			"value": 3559,
+			"unlock": "UV Light Tier 3"
+		},
+		{
+			
+			"value": 3606,
+			"unlock": "Igniter Tier 3"
+		},
+		{
+			
+			"value": 3654,
+			"unlock": "Sound Sensor Tier 3"
+		},
+		{
+			
+			"value": 3702,
+			"unlock": ""
+		},
+		{
+			
+			"value": 3749,
+			"unlock": "D.O.T.S Projector Tier 3"
+		},
+		{
+			
+			"value": 3796,
+			"unlock": "Video Camera Tier 3"
+		},
+		{
+			
+			"value": 3843,
+			"unlock": "Tripod Tier 3"
+		},
+		{
+			
+			"value": 3890,
+			"unlock": "Ghost Writing Book Tier 3"
+		},
+		{
+			
+			"value": 3937,
+			"unlock": "Thermometer Tier 3"
+		},
+		{
+			
+			"value": 3983,
+			"unlock": ""
+		},
+		{
+			
+			"value": 4029,
+			"unlock": ""
+		},
+		{
+			
+			"value": 4075,
+			"unlock": ""
+		},
+		{
+			
+			"value": 4122,
+			"unlock": "Salt Tier 3"
+		},
+		{
+			
+			"value": 4166,
+			"unlock": ""
+		},
+		{
+			
+			"value": 4213,
+			"unlock": "Photo Camera Tier 3"
+		},
+		{
+			
+			"value": 4257,
+			"unlock": ""
+		},
+		{
+			
+			"value": 4303,
+			"unlock": "Parabolic Microphone Tier 3"
+		},
+		{
+			
+			"value": 4348,
+			"unlock": ""
+		},
+		{
+			
+			"value": 4393,
+			"unlock": "Motion Sensor Tier 3"
+		},
+		{
+			
+			"value": 4438,
+			"unlock": ""
+		},
+		{
+			
+			"value": 4482,
+			"unlock": ""
+		},
+		{
+			
+			"value": 4527,
+			"unlock": "Sanity Medication Tier 3"
+		},
+		{
+			
+			"value": 4571,
+			"unlock": ""
+		},
+		{
+			
+			"value": 4615,
+			"unlock": "Firelight Tier 3"
+		},
+		{
+			
+			"value": 4659,
+			"unlock": ""
+		},
+		{
+			
+			"value": 4704,
+			"unlock": ""
+		},
+		{
+			
+			"value": 4746,
+			"unlock": "Headgear Tier 3"
+		},
+		{
+			
+			"value": 4791,
+			"unlock": ""
+		},
+		{
+			
+			"value": 4834,
+			"unlock": ""
+		},
+		{
+			
+			"value": 4877,
+			"unlock": "Incense Tier 3"
+		},
+		{
+			
+			"value": 4921,
+			"unlock": ""
+		},
+		{
+			
+			"value": 4963,
+			"unlock": ""
+		},
+		{
+			
+			"value": 5007,
+			"unlock": ""
+		},
+		{
+			
+			"value": 5049,
+			"unlock": ""
+		},
+		{
+			
+			"value": 5093,
+			"unlock": "Crucifix Tier 3"
+		},
+		{
+			
+			"value": 5134,
+			"unlock": ""
+		},
+		{
+			
+			"value": 5178,
+			"unlock": ""
+		},
+		{
+			
+			"value": 5219,
+			"unlock": ""
+		},
+		{
+			
+			"value": 5262,
+			"unlock": ""
+		},
+		{
+			
+			"value": 5304,
+			"unlock": ""
+		},
+		{
+			
+			"value": 5346,
+			"unlock": ""
+		},
+		{
+			
+			"value": 5389,
+			"unlock": ""
+		},
+		{
+			
+			"value": 5429,
+			"unlock": ""
+		},
+		{
+			
+			"value": 5472,
+			"unlock": ""
+		},
+		{
+			
+			"value": 5513,
+			"unlock": "Prestige Opportunity"
+		}
+		
+	]
+}
