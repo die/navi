@@ -14,7 +14,6 @@ RUN apt-get update && \
     ./dotnet-install.sh --channel 6.0 && \
     ln -s /root/.dotnet/dotnet /usr/local/bin/dotnet
 
-
 # Copy package.json and install dependencies
 COPY package*.json ./
 

@@ -1,5 +1,4 @@
 const { REST, Routes } = require('discord.js');
-const { clientId, guildId, token } = require('./config.json');
 const fs = require('node:fs');
 const path = require('node:path');
 
@@ -22,27 +21,25 @@ for (const folder of commandFolders) {
 	}
 }
 
-const rest = new REST().setToken(token);
+const rest = new REST().setToken(process.env.DISCORD_TOKEN);
+
+const guildIds = [
+    '654478709029339137', // mine
+    '926335148650283029', // trevor
+    '937021368493547580', // drew
+];
 
 (async () => {
 	try {
 		console.log(`Started refreshing ${commands.length} application (/) commands.`);
-
-        // my server
-		const data = await rest.put(
-			Routes.applicationGuildCommands(clientId, '654478709029339137'),
-			{ body: commands },
-		);
-
-        // trevors server
-        await rest.put(
-			Routes.applicationGuildCommands(clientId, '926335148650283029'),
-			{ body: commands },
-		);
-
-		console.log(`Successfully reloaded ${data.length} application (/) commands.`);
-	}
-	catch (error) {
+        for (const guildId of guildIds) {
+            await rest.put(
+                Routes.applicationGuildCommands(process.env.DISCORD_CLIENT_ID, guildId),
+                { body: commands }
+            );
+            console.log(`Successfully reloaded commands for guild ${guildId}.`);
+        }
+	} catch (error) {
 		console.error(error);
 	}
 })();

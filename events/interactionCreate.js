@@ -1,5 +1,4 @@
 const { Events, Collection } = require('discord.js');
-const { ownerId } = require('../config.json');
 const db = require('../lib/db');
 
 module.exports = {
@@ -14,7 +13,7 @@ module.exports = {
 			return;
 		}
 
-		if (command.owner && interaction.user.id !== ownerId) return interaction.reply({ content: 'You don\'t have permission for this owner-only command.', ephemeral: true });
+		if (command.ownerOnly && interaction.user.id !== process.env.DISCORD_OWNER_ID) return interaction.reply({ content: 'You don\'t have permission for this owner-only command.', ephemeral: true });
 
 		const { cooldowns } = interaction.client;
 
