@@ -5,18 +5,21 @@ module.exports = {
     data: new SlashCommandBuilder()
         .setName('play')
         .setDescription('Search and play a song')
-        .addStringOption(option => 
-            option.setName('query')
-                    .setDescription('Search keywords or URL')
-                    .setRequired(true)
-            ),
-  
+        .addStringOption((option) =>
+            option
+                .setName('query')
+                .setDescription('Search keywords or URL')
+                .setRequired(true)
+        ),
+
     async execute(interaction) {
         const query = interaction.options.getString('query');
         const voiceChannel = interaction.member.voice.channel;
 
         if (!voiceChannel) {
-            return interaction.reply('You need to be in a voice channel to play music!');
+            return interaction.reply(
+                'You need to be in a voice channel to play music!'
+            );
         }
 
         try {
@@ -29,7 +32,9 @@ module.exports = {
             interaction.followUp(`Searching for \`${query}\``);
         } catch (error) {
             console.error(error);
-            interaction.followUp('An error occurred while trying to play the song.');
+            interaction.followUp(
+                'An error occurred while trying to play the song.'
+            );
         }
     },
 };

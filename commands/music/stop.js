@@ -5,12 +5,14 @@ module.exports = {
     data: new SlashCommandBuilder()
         .setName('stop')
         .setDescription('Stop the music and clear the queue'),
-  
+
     async execute(interaction) {
         const voiceChannel = interaction.member.voice.channel;
 
         if (!voiceChannel) {
-            return interaction.reply('You need to be in a voice channel to stop music!');
+            return interaction.reply(
+                'You need to be in a voice channel to stop music!'
+            );
         }
 
         try {
